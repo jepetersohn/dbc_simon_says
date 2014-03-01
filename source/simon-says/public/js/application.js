@@ -8,13 +8,13 @@ function changeRandomCelltoRandomColor() {
     randomCell().css('background-color', randomColor());
 };
 
-function cellCount() {
-    return $("#color_me li").size();
-};
-
 function randomCell() {
     randomNumber = Math.floor(Math.random()*cellCount() + 1);
     return $('#color_me li:nth-child(' + randomNumber + ')' );
+};
+
+function cellCount() {
+    return $("#color_me li").size();
 };
 
 function randomColor() {
