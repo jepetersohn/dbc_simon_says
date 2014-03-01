@@ -39,7 +39,6 @@ function randomHexValue() {
 
 
 
-
 // $(document).ready(function(){
 //     $('#get_color').on('click', function() {
 //         $("#color_me li:nth-child(1)" ).css('background-color', randomHexValue());
